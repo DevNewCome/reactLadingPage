@@ -1,0 +1,27 @@
+.containerBlue{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #4260E1;
+    max-width: 90%;
+    width: 1000px;
+    min-height: 200px;
+}
+
+.contents h1{
+    color: #fff;
+}
+
+.contents p{
+    color: #ccc;
+}

@@ -1,0 +1,115 @@
+.containerValue {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.imageContainer img {
+    border: 5px solid #cdcdcd;
+    width: 480px; /*Esse q é o macete width definido, com max widith */
+    max-width: 100%;
+    height: 33rem;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    overflow: hidden;
+}
+
+.v-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralize o conteúdo horizontalmente */
+    text-align: center;
+    max-width: 100%;
+}
+
+.v-right span {
+   width: 100%;
+}
+
+.v-right > :nth-child(1) {
+    color: rgb(255, 183, 0);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.v-right > :nth-child(2) {
+    color: #283E68;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.v-right > :nth-child(3) {
+    color: #BDBEC1;
+    font-weight: 500;
+    width: 100%;
+}
+
+.accordion{
+    max-width: 100%;
+    width: 500px;
+    margin-top: 1.5rem;
+    border: none;
+}
+
+.accordionItem{
+    background-color: white;
+    margin: 0.8px solid rgba(128,128,128,0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.accordionButton{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #ededed;
+}
+
+.accordionItem.expanded{
+    border-radius: 6px;
+}
+
+.accordionButton:hover{
+    background-color: #e3e2e2;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #eeeeff;
+    border-radius: 5px;
+}
+
+.icon svg{
+    fill : blue
+}
+
+.accordionText{
+    color: rgb(65, 65, 101);
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .v-right {
+        margin: 0;
+    }
+    
+    .imageContainer img {
+        width: 350px;
+        height: 450px;
+ 
+    }
+    
+    
+
+}

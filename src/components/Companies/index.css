@@ -1,0 +1,19 @@
+.companiesSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.companiesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    width: 70%;
+}
+
+.companiesContainer>img{
+    width: 9rem;
+}

@@ -1,0 +1,175 @@
+.image img{
+    width: 200px;
+    height: 200px;
+}
+
+.sectionHero{
+    display: flex;
+    justify-content: center;
+    background-color: #131110;
+}
+
+.hero-left-contentMiniText{
+    width: 70%;
+    margin-top: 2rem;
+    color: #8C8B8B;
+}
+
+.heroContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    max-width: 90%;
+   
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hero-left-content p{
+    font-size: 65px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.hero-left-content{
+    position: relative;
+    z-index: 1;
+ 
+}
+
+.HeroInput{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.HeroInput input{
+    padding: 10px;
+    border-radius: 4px;
+    width: 350px;
+    max-width: 100%;
+    border-color: #ccc;
+    outline: none;
+}
+
+.HeroNumbers{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+   
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.orange-circle {
+    height: 4rem;
+    width: 4rem;
+    background-color: orange;
+    border-radius: 50%; /* Alterado de 100% para 50% */
+    z-index: -1;
+    position: absolute;
+    left: 35%; /* Centraliza o elemento horizontalmente */
+    transform: translateX(-50%); /* Ajusta a posição horizontalmente para a centralização */
+}
+
+
+
+.spans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #8C8B8B;
+}
+
+.spans span{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.spans span p{
+    color: rgb(255, 170, 0);
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    border: 5px solid #615f5f;
+    overflow: hidden;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+
+.image img{
+    max-width: 100%;
+    width: 400px;
+    height: 500px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+
+@media (max-width: 768px) {
+
+    .hero-left {
+        flex-direction: column; /* Alinhe os elementos verticalmente */
+        align-items: center;
+        text-align: center;
+    }
+
+    .image img{
+        width: 350px;
+        height: 450px;
+        border-top-left-radius: 250px;
+        border-top-right-radius: 250px;
+    }
+
+    .hero-left-content p {
+        font-size: 40px; /* Reduza o tamanho da fonte para telas menores */
+    }
+    
+    .HeroInput input {
+        width: 100%; /* Faça o campo de entrada ocupar a largura total da tela */
+    }
+
+    .hero-left button{
+        width: 100%;
+    }
+
+    .hero-left .HeroNumbers{
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Outros ajustes de estilo para telas menores */
+}
+
+@media(max-width: 1440px){
+    .hero-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+
