@@ -1,3 +1,9 @@
 .App{
     position: relative;
+    overflow-x: hidden;
 }
+
+.App body{
+        overflow-x: hidden;
+}
+
